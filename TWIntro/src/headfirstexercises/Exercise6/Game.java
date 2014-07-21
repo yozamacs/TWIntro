@@ -13,7 +13,7 @@ public class Game {
     private ArrayList<Integer> numList = new ArrayList<Integer>();
 
     Game(){
-        guess = (int) (Math.random()* 101);
+        guess = (int) (Math.random()* 100);
     }
 
     public boolean checkGuess(String userGuess){
